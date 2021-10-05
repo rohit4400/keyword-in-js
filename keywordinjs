@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="id"></p>
+<script>
+//Create an object
+var student={
+RollNo:101,
+Name: "AAA",
+info:function(){
+return this.RollNo +"" +this.Name;
+}
+};
+//display data from the object:
+document.write(student.info())
+</script>
+</body>
+</html>
